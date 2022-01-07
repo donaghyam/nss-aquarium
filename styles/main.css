@@ -16,14 +16,14 @@ h1 {
 #fishContainerParent {
     border: solid 1px blue;
     color: white;
-    float: left;
     padding: 10px;
-    width: 30%;
+    width: 33%;
     margin: 10px;
 }
 
 .fishImage {
     display: flex;
+    flex-direction: column;
     height: 150px;
     width: 150px;
 }
@@ -31,20 +31,23 @@ h1 {
 #fishDataContainer {
     width: fit-content;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
 
 #individualFish {
     color: white;
     width:min-content;
+    flex-direction: column;
 }
 
 #tipsAndLocationsParent {
     border: solid 1px blue;
     color: white;
-    width: fit-content;
     padding: 10px;
     margin: 10px;
     display: flex;
+    width: 33%;
 }
 
 #travelTipsContainer {
@@ -63,5 +66,5 @@ h1 {
     border: solid 1px blue;
     color: white;
     display: flex;
-    float: right;
+    width: 33%;
 }
