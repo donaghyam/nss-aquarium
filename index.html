@@ -13,89 +13,95 @@
         <h1>Martin's Aquarium</h1>
     </div>
 
-    <!--Fish collection container-->
-    <div id="fishContainerParent"> 
-        <div>
-            <h1>Fish Collection</h1>
-        </div>
-        <div id="fishDataContainer"> 
-            <section id="individualFish">
-                <!--clown fish-->
-                <img class="fishImage" src="https://cdn.mos.cms.futurecdn.net/4UdEs7tTKwLJbxZPUYR3hF-650-80.jpg.webp">
-                <ul>
-                    <li>Species: Ocellaris clownfish</li>
-                    <li>Length: 17 cm</li>
-                    <li>Given name: The Dude</li>
-                    <li>Location harvested: Red Sea </li>
-                    <li>Diet: small zooplankton</li>
-                </ul>
-            </section>
-            <section id="individualFish">
-                <!--mandarinfish-->
-                <img class="fishImage" src="https://30a.com/wp-content/uploads/2020/12/Mandarin-Fish-1024x720-1.jpg">
-                <ul>
-                    <li>Species: Mandarinfish</li>
-                    <li>Length: 6 cm</li>
-                    <li>Given name: Donny</li>
-                    <li>Location harvested: Western Pacific </li>
-                    <li>Diet: small gastropods</li>
-                </ul>
-            </section>
-            <section id="individualFish">
-                <!--clown triggerfish-->
-                <img class="fishImage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Balistoides_conspicillum_2607.jpg/800px-Balistoides_conspicillum_2607.jpg">
-                <ul>
-                    <li>Species: Clown triggerfish</li>
-                    <li>Length: 50 cm</li>
-                    <li>Given name: Walter</li>
-                    <li>Location harvested: Indian ocean </li>
-                    <li>Diet: molluscs</li>
-                </ul>
-            </section>
-        </div>
-    </div>
+    <!--contains everything except header-->
+    <div id="main">
 
-    <!--Travel tips/locations parent container-->
-    <div id="tipsAndLocationsParent">
-        <div id="travelTipsParent">
-            <div id="travelTipsContainer">
-                <div>
-                    <h1>Travel Tips</h1>
-                </div>
-                <section> <!--tips go here-->
+        <!--Fish collection container-->
+        <div id="fishContainerParent"> 
+            <div>
+                <h1>Fish Collection</h1>
+            </div>
+            <div id="fishDataContainer"> 
+                <section class="individualFish">
+                    <!--clown fish-->
+                    <img class="fishImage" src="https://cdn.mos.cms.futurecdn.net/4UdEs7tTKwLJbxZPUYR3hF-650-80.jpg.webp">
                     <ul>
-                        <li>Bring a snorkel</li>
-                        <li>Don't travel alone</li>
-                        <li>Wait until covid isn't a</li>
+                        <li>Species: Ocellaris clownfish</li>
+                        <li>Length: 17 cm</li>
+                        <li>Given name: The Dude</li>
+                        <li>Location harvested: Red Sea </li>
+                        <li>Diet: small zooplankton</li>
                     </ul>
                 </section>
-            </div>
-            <div id="locationsContainer">
-                <div> 
-                    <h1>Locations Traveled</h1>
-                </div>
-                <section> <!--locations list-->
+                <section class="individualFish">
+                    <!--mandarinfish-->
+                    <img class="fishImage" src="https://30a.com/wp-content/uploads/2020/12/Mandarin-Fish-1024x720-1.jpg">
                     <ul>
-                        <li>Aruba</li>
-                        <li>Hawaii</li>
+                        <li>Species: Mandarinfish</li>
+                        <li>Length: 6 cm</li>
+                        <li>Given name: Donny</li>
+                        <li>Location harvested: Western Pacific </li>
+                        <li>Diet: small gastropods</li>
+                    </ul>
+                </section>
+                <section class="individualFish">
+                    <!--clown triggerfish-->
+                    <img class="fishImage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Balistoides_conspicillum_2607.jpg/800px-Balistoides_conspicillum_2607.jpg">
+                    <ul>
+                        <li>Species: Clown triggerfish</li>
+                        <li>Length: 50 cm</li>
+                        <li>Given name: Walter</li>
+                        <li>Location harvested: Indian ocean </li>
+                        <li>Diet: molluscs</li>
                     </ul>
                 </section>
             </div>
         </div>
 
+        <!--Travel tips/locations parent container-->
+        <div id="tipsAndLocationsParent">
+            <div id="travelTipsParent">
+                <div id="travelTipsContainer">
+                    <div>
+                        <h1>Travel Tips</h1>
+                    </div>
+                    <section> <!--tips go here-->
+                        <ul>
+                            <li>Bring a snorkel</li>
+                            <li>Don't travel alone</li>
+                            <li>Wait until covid is over</li>
+                        </ul>
+                    </section>
+                </div>
+                <div id="locationsContainer">
+                    <div> 
+                        <h1>Locations Traveled</h1>
+                    </div>
+                    <section> <!--locations list-->
+                        <ul>
+                            <li>Aruba</li>
+                            <li>Hawaii</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Martin's tips container-->
+        <div id="martinsTips">
+            <h1>Martin's tips</h1>
+            <section> 
+                <ul>
+                    <li>Keep water between 34-36 PPT salt</li>
+                    <li>Maintain 75-80 degrees F</li>
+                    <li>Clean tank often</li>
+                </ul>
+            </section>
+        </div>
+
     </div>
 
-    <!--Martin's tips container-->
-    <div id="martinsTips">
-        <h1>Martin's tips</h1>
-        <section> 
-            <ul>
-                <li>Keep water between 34-36 PPT salt</li>
-                <li>Maintain 75-80 degrees F</li>
-                <li>Clean tank often</li>
-            </ul>
-        </section>
-    </div>
 </body>
 </html>
 
